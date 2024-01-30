@@ -1,0 +1,519 @@
+{
+	"questionnaire": [
+	  {
+		"page_no": 1,
+		"page_name": "Initial",
+		"questions": [
+		  {
+			"id": 1,
+			"question_text": "Is your organization’s infrastructure in one of the following configurations?"
+		  },
+		  {
+			"id": 2,
+			"question_text": "What is the size of your cloud engineer + devops engineers teams?"
+		  },
+		  {
+			"id": 3,
+			"question_text": "What is the budget of your cloud operations monthly presently?"
+		  }
+		],
+		"options": [
+		  {
+			"question_id": 1,
+			"option_id": 1,
+			"option_text": "All on-prem",
+			"score": 2
+		  },
+		  {
+			"question_id": 1,
+			"option_id": 2,
+			"option_text": "Hybrid (on-prem + multiple clouds)",
+			"score": 2
+		  },
+		  {
+			"question_id": 1,
+			"option_id": 3,
+			"option_text": "All on public clouds",
+			"score": 2
+		  },
+		  {
+			"question_id": 2,
+			"option_id": 4,
+			"option_text": "0",
+			"score": 0
+		  },
+		  {
+			"question_id": 2,
+			"option_id": 5,
+			"option_text": "1-5",
+			"score": 0
+		  },
+		  {
+			"question_id": 2,
+			"option_id": 6,
+			"option_text": "1-10",
+			"score": 0
+		  },
+		  {
+			"question_id": 2,
+			"option_id": 7,
+			"option_text": "1-20",
+			"score": 0
+		  },
+		  {
+			"question_id": 3,
+			"option_id": 8,
+			"option_text": "0",
+			"score": 0
+		  },
+		  {
+			"question_id": 3,
+			"option_id": 9,
+			"option_text": "upto $10,000",
+			"score": 0
+		  },
+		  {
+			"question_id": 3,
+			"option_id": 10,
+			"option_text": "upto $100,000",
+			"score": 0
+		  },
+		  {
+			"question_id": 3,
+			"option_id": 11,
+			"option_text": "upto $1 million",
+			"score": 0
+		  }
+		],
+		"answers": [
+		  {
+			"question_id": 1,
+			"correct_option": "All on-prem"
+		  },
+		  {
+			"question_id": 2,
+			"correct_option": "0"
+		  },
+		  {
+			"question_id": 3,
+			"correct_option": "0"
+		  }
+		],
+		"skip_page": {
+		  "correct_goto_page": 2,
+		  "wrong_goto_page": 4
+		}
+	  },
+	  {
+		"page_no": 2,
+		"page_name": "No Cloud option",
+		"questions": [
+		  {
+			"id": 4,
+			"question_text": "Do you plan to migrate parts of your application infrastructure to the cloud in the near future?"
+		  }
+		],
+		"options": [
+		  {
+			"question_id": 4,
+			"option_id": 12,
+			"option_text": "Yes",
+			"score": -1
+		  },
+		  {
+			"question_id": 4,
+			"option_id": 13,
+			"option_text": "No",
+			"score": -2
+		  }
+		],
+		"answers": [
+		  {
+			"question_id": 4,
+			"correct_option": "Yes"
+		  }
+		],
+		"skip_page": {
+		  "correct_goto_page": 3,
+		  "wrong_goto_page": null
+		}
+	  },
+	  {
+		"page_no": 3,
+		"page_name": "Plan to go to Cloud option",
+		"questions": [
+		  {
+			"id": 5,
+			"question_text": "Do you have top executive commitment to move to the cloud?"
+		  },
+		  {
+			"id": 6,
+			"question_text": "Are you able to purchase services and set up accounts in AWS smoothly?"
+		  },
+		  {
+			"id": 7,
+			"question_text": "Have you chosen a Cloud service provider?"
+		  },
+		  {
+			"id": 8,
+			"question_text": "Is there a Cloud migration steering committee set up with all-organization involvement?"
+		  }
+		],
+		"options": [
+		  {
+			"question_id": 5,
+			"option_id": 14,
+			"option_text": "Yes",
+			"score": 0.25
+		  },
+		  {
+			"question_id": 5,
+			"option_id": 15,
+			"option_text": "No",
+			"score": 0
+		  },
+		  {
+			"question_id": 6,
+			"option_id": 16,
+			"option_text": "Yes",
+			"score": 0.25
+		  },
+		  {
+			"question_id": 6,
+			"option_id": 17,
+			"option_text": "No",
+			"score": 0
+		  },
+		  {
+			"question_id": 7,
+			"option_id": 18,
+			"option_text": "Yes",
+			"score": 0.25
+		  },
+		  {
+			"question_id": 7,
+			"option_id": 19,
+			"option_text": "No",
+			"score": 0
+		  },
+		  {
+			"question_id": 8,
+			"option_id": 20,
+			"option_text": "Yes",
+			"score": 0.25
+		  },
+		  {
+			"question_id": 8,
+			"option_id": 21,
+			"option_text": "No",
+			"score": 0
+		  }
+		],
+		"answers": [
+		  {
+			"question_id": 5,
+			"correct_option": "Yes"
+		  },
+		  {
+			"question_id": 6,
+			"correct_option": "Yes"
+		  },
+		  {
+			"question_id": 7,
+			"correct_option": "Yes"
+		  },
+		  {
+			"question_id": 8,
+			"correct_option": "Yes"
+		  }
+		],
+		"skip_page": {
+		  "correct_goto_page": 4,
+		  "wrong_goto_page": null
+		}
+	  },
+	  {
+		"page_no": 4,
+		"page_name": "Foundation stage",
+		"questions": [
+		  {
+			"id": 9,
+			"question_text": "Is the budget for your DevOps team split (apportioned) correctly between different departments that use their services?"
+		  },
+		  {
+			"id": 10,
+			"question_text": "Are your cloud initiatives run with organization-level buy-in and commitment?"
+		  },
+		  {
+			"id": 11,
+			"question_text": "Have you conducted Cloud Security and Compliance workshops involving all of the organization?"
+		  },
+		  {
+			"id": 12,
+			"question_text": "Are your infrastructure costs correctly apportioned across multiple departments?"
+		  }
+		],
+		"options": [
+		  {
+			"question_id": 9,
+			"option_id": 22,
+			"option_text": "Yes",
+			"score": 0.25
+		  },
+		  {
+			"question_id": 9,
+			"option_id": 23,
+			"option_text": "No",
+			"score": 0
+		  },
+		  {
+			"question_id": 10,
+			"option_id": 24,
+			"option_text": "Yes",
+			"score": 0.25
+		  },
+		  {
+			"question_id": 10,
+			"option_id": 25,
+			"option_text": "No",
+			"score": 0
+		  },
+		  {
+			"question_id": 11,
+			"option_id": 26,
+			"option_text": "Yes",
+			"score": 0.25
+		  },
+		  {
+			"question_id": 11,
+			"option_id": 27,
+			"option_text": "No",
+			"score": 0
+		  },
+		  {
+			"question_id": 12,
+			"option_id": 28,
+			"option_text": "Yes",
+			"score": 0.25
+		  },
+		  {
+			"question_id": 12,
+			"option_id": 29,
+			"option_text": "No",
+			"score": 0
+		  }
+		],
+		"answers": [
+		  {
+			"question_id": 9,
+			"correct_option": "Yes"
+		  },
+		  {
+			"question_id": 10,
+			"correct_option": "Yes"
+		  },
+		  {
+			"question_id": 11,
+			"correct_option": "Yes"
+		  },
+		  {
+			"question_id": 12,
+			"correct_option": "Yes"
+		  }
+		],
+		"skip_page": {
+		  "correct_goto_page": 5,
+		  "wrong_goto_page": null
+		}
+	  },
+	  {
+		"page_no": 5,
+		"page_name": "Migration stage",
+		"questions": [
+		  {
+			"id": 13,
+			"question_text": "Do you have an incident management process to handle downtime in your applications?"
+		  },
+		  {
+			"id": 14,
+			"question_text": "Do you monitor the performance of your cloud resources such as Compute, Network, and Storage?"
+		  },
+		  {
+			"id": 15,
+			"question_text": "Do you have alerts configured for incidents from resource overruns, security alarms to cost overruns?"
+		  },
+		  {
+			"id": 16,
+			"question_text": "Do you conduct regular checks to make sure your cloud operations are compliant with security standards such as CIS, PCI-DSS, GDPR?"
+		  }
+		],
+		"options": [
+		  {
+			"question_id": 13,
+			"option_id": 30,
+			"option_text": "Yes",
+			"score": 0.25
+		  },
+		  {
+			"question_id": 13,
+			"option_id": 31,
+			"option_text": "No",
+			"score": 0
+		  },
+		  {
+			"question_id": 14,
+			"option_id": 32,
+			"option_text": "Yes",
+			"score": 0.25
+		  },
+		  {
+			"question_id": 14,
+			"option_id": 33,
+			"option_text": "No",
+			"score": 0
+		  },
+		  {
+			"question_id": 15,
+			"option_id": 34,
+			"option_text": "Yes",
+			"score": 0.25
+		  },
+		  {
+			"question_id": 15,
+			"option_id": 35,
+			"option_text": "No",
+			"score": 0
+		  },
+		  {
+			"question_id": 16,
+			"option_id": 36,
+			"option_text": "Yes",
+			"score": 0.25
+		  },
+		  {
+			"question_id": 16,
+			"option_id": 37,
+			"option_text": "No",
+			"score": 0
+		  }
+		],
+		"answers": [
+		  {
+			"question_id": 13,
+			"correct_option": "Yes"
+		  },
+		  {
+			"question_id": 14,
+			"correct_option": "Yes"
+		  },
+		  {
+			"question_id": 15,
+			"correct_option": "Yes"
+		  },
+		  {
+			"question_id": 16,
+			"correct_option": "Yes"
+		  }
+		],
+		"skip_page": {
+		  "correct_goto_page": 6,
+		  "wrong_goto_page": null
+		}
+	  },
+	  {
+		"page_no": 6,
+		"page_name": "Optimization",
+		"questions": [
+		  {
+			"id": 17,
+			"question_text": "Are your applications using Continuous Integration/Continuous Delivery (CI/CD) pipelines?"
+		  },
+		  {
+			"id": 18,
+			"question_text": "Are you able to do one of Blue-Green, Rolling, or Canary deployments in your present cloud applications?"
+		  },
+		  {
+			"id": 19,
+			"question_text": "Do you use auto-scaling in the cloud?"
+		  },
+		  {
+			"id": 20,
+			"question_text": "Do you use serverless resources in the cloud?"
+		  }
+		],
+		"options": [
+		  {
+			"question_id": 17,
+			"option_id": 38,
+			"option_text": "Yes",
+			"score": 0
+		  },
+		  {
+			"question_id": 17,
+			"option_id": 39,
+			"option_text": "No",
+			"score": 0
+		  },
+		  {
+			"question_id": 18,
+			"option_id": 40,
+			"option_text": "Yes",
+			"score": 0
+		  },
+		  {
+			"question_id": 18,
+			"option_id": 41,
+			"option_text": "No",
+			"score": 0
+		  },
+		  {
+			"question_id": 19,
+			"option_id": 42,
+			"option_text": "Yes",
+			"score": 0
+		  },
+		  {
+			"question_id": 19,
+			"option_id": 43,
+			"option_text": "No",
+			"score": 0
+		  },
+		  {
+			"question_id": 20,
+			"option_id": 44,
+			"option_text": "Yes",
+			"score": 0
+		  },
+		  {
+			"question_id": 20,
+			"option_id": 45,
+			"option_text": "No",
+			"score": 0
+		  }
+		],
+		"answers": [
+		  {
+			"question_id": 17,
+			"correct_option": "Yes"
+		  },
+		  {
+			"question_id": 18,
+			"correct_option": "Yes"
+		  },
+		  {
+			"question_id": 19,
+			"correct_option": "Yes"
+		  },
+		  {
+			"question_id": 20,
+			"correct_option": "Yes"
+		  }
+		],
+		"skip_page": {
+		  "correct_goto_page": null,
+		  "wrong_goto_page": null
+		}
+	  }
+	]
+  }
+  
